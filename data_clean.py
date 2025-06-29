@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import shutil
 
-day_stamp = datetime.today().strftime('%Y-%m-%d %H-%M-%S')
+day_stamp = datetime.today().strftime('%Y%m%d')
 
 try:
     
@@ -14,7 +14,7 @@ try:
     transformed_log = df.iloc[::4, :]
 
     # Determine the path where the transformed log is going to be saved
-    path = f'/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Temperature-log-probe1-{day_stamp}.csv'
+    path = f'/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Temperature_log_probe1_{day_stamp}.csv'
     
     # The indexer .iloc already creates a new data frame so no need to use pd.DataFrame
     # We set index to False to have a cleaner dataframe without the row indexes
