@@ -1,0 +1,6 @@
+Apache superset integration missing
+    Email dashboard as report
+    Save dashboard locally
+    Schedule Email after log updated or uploaded to s3
+    
+File handling works fine
