@@ -4,3 +4,8 @@ Apache superset integration missing
     Schedule Email after log updated or uploaded to s3
     
 File handling works fine
+
+07022025
+
+Re coded data_clean.py to select a complete 24 hours day, and show to csv
+every hour instead of 15 min.

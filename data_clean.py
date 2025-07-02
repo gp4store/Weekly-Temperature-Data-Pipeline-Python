@@ -9,9 +9,10 @@ try:
     
     # Reads csv file
     df = pd.read_csv("Weekly_temperature.csv")
-
-    # We want the temperature every hour no every 15 minutes
-    transformed_log = df.iloc[::4, :]
+    
+    # We selected rows 0 to 194 which is a complete day in our csv, and step every 4 hours
+    # Since our log its recording temperature every 15 minutes
+    transformed_log = df.iloc[0:96:4, :]
 
     # Determine the path where the transformed log is going to be saved
     path = f'/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Temperature_log_probe1_{day_stamp}.csv'
