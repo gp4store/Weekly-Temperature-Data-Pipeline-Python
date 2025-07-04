@@ -32,7 +32,7 @@ emailmessage["Subject"] = subject
 emailmessage.attach(MIMEText(emailbody, "plain"))
 
 # File path where our dashboard is saved from create_dash.py
-filename_path = f"/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Dashboards/Daily_temperature_plot_{day_stamp}.png"
+filename_path = f"/your/path/Weekly-Temperature-Data-Pipeline-Python/Dashboards/Daily_temperature_plot_{day_stamp}.png"
 
 # Open the file in binary mode
 with open(filename_path, "rb") as attachment:

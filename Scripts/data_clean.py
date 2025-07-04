@@ -15,14 +15,14 @@ try:
     transformed_log = df.iloc[0:96:4, :]
 
     # Determine the path where the transformed log is going to be saved
-    path = f'/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Temperature_log_probe1_{day_stamp}.csv'
+    path = f'/your/path/Weekly-Temperature-Data-Pipeline-Python/Temperature_log_probe1_{day_stamp}.csv'
     
     # The indexer .iloc already creates a new data frame so no need to use pd.DataFrame
     # We set index to False to have a cleaner dataframe without the row indexes
     transformed_log.to_csv(path, index=False)
     
     # Backup directory where cleaned log is going to be saved
-    backupdir = '/home/gp_/Weekly-Temperature-Data-Pipeline-Python/hourly'
+    backupdir = '/your/path/Weekly-Temperature-Data-Pipeline-Python/hourly'
     os.makedirs(backupdir, exist_ok=True)
     
     # Copy clean log to hourly folder, backup_s3.py will remove it from main directory

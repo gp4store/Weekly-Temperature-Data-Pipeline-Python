@@ -7,8 +7,8 @@ day_stamp = datetime.today().strftime('%Y%m%d')
 
 try:
     
-    path  = f"/home/gp_/Weekly-Temperature-Data-Pipeline-Python/hourly/Temperature_log_probe1_{day_stamp}.csv"
-    path_save = f"/home/gp_/Weekly-Temperature-Data-Pipeline-Python/Dashboards/Daily_temperature_plot_{day_stamp}.png"
+    path  = f"/your/path/hourly/Temperature_log_probe1_{day_stamp}.csv"
+    path_save = f"/your/path/Weekly-Temperature-Data-Pipeline-Python/Dashboards/Daily_temperature_plot_{day_stamp}.png"
     df = pd.read_csv(path)
 
 
