@@ -9,3 +9,12 @@ File handling works fine
 
 Re coded data_clean.py to select a complete 24 hours day, and show to csv
 every hour instead of 15 min.
+
+# automatedservice07@gmail.com
+# hawh ccwr rzkc sqrb 
+
+# VARIABLE_NAME=automationservice
+#
+
+# AUTOMATION_EMAIL=automatedservice07@gmail.com
+# AUTOMATION_PASS="hawh ccwr rzkc sqrb"
