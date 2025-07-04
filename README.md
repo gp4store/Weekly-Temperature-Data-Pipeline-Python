@@ -24,7 +24,6 @@ Weekly-Temperature-Data-Pipeline-Python/
 │   ├── create_dash.py         # Dashboard generation
 │   ├── sendemail.py          # Email automation
 │   └── backup_s3.py          # Cloud backup and cleanup
-├── .env                      # Environment variables (not tracked)
 ├── Weekly_temperature.csv    # Raw temperature data
 ├── hourly/                   # Cleaned data storage
 ├── Dashboards/               # Generated visualizations
@@ -204,5 +203,3 @@ Check console output for detailed error messages and troubleshooting guidance.
 - **Monitoring**: Pipeline health monitoring and alerting
 
 ---
-
-**Note**: Remember to keep your `.env` file secure and never commit it to version control. Update the AWS bucket name and file paths according to your specific environment setup.
