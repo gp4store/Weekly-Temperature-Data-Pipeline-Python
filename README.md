@@ -115,6 +115,11 @@ AWS_SECRET_ACCESS_KEY=your-secret-key
 
 ## 🏃‍♂️ Usage
 
+## ⚠️ Important Setup Step
+Before running the pipeline, update all file paths in the scripts:
+- Replace `/your/path/` with your actual project directory path
+- Update S3 bucket name in `backup_s3.py`
+
 ### Manual Execution
 
 Run each component individually:
