@@ -1,3 +1,9 @@
 ve/
 .env
 notes.txt
+__pycache__/
+backup_s3.py 
+create_dash.py 
+create_db.py 
+data_clean.py
+sendemail.py
